@@ -44,16 +44,16 @@ $('#inicio').on('click', function(){
     $('html,boy').animate({scrollTop:0}, 1500);
 })
 $('#nosotros').on('click', function(){
-    $('html,boy').animate({scrollTop:614}, 1500);
+    $('html,boy').animate({scrollTop:590}, 1500);
 })
 $('#nosotros2').on('click', function(){
-    $('html,boy').animate({scrollTop:614}, 1500);
+    $('html,boy').animate({scrollTop:590}, 1500);
 })
 $('#catalogo').on('click', function(){
-    $('html,boy').animate({scrollTop:1228}, 1500);
+    $('html,boy').animate({scrollTop:1180}, 1500);
 })
 $('#catalogo2').on('click', function(){
-    $('html,boy').animate({scrollTop:1228}, 1500);
+    $('html,boy').animate({scrollTop:1180}, 1500);
 })
 
 
