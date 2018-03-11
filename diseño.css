@@ -113,10 +113,10 @@ nav a:hover{
 }
 /*------------------------------seccion1------------------------------*/
 .sec{
-    background: #fff;
+    
     width: 100%;
     height: 100vh;
-     background: #fff fixed no-repeat 50% 50%;
+    background: #fff fixed no-repeat 50% 50%;
     background-size: cover;
 }
 #seccion1{

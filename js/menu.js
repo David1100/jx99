@@ -41,19 +41,19 @@ anterior.on('click', function(){
 /*--------------scroll---------------------*/
 
 $('#inicio').on('click', function(){
-    $('html,boy').animate({scrollTop:0}, 1500);
+    $('html,body').animate({scrollTop:0}, 1500);
 })
 $('#nosotros').on('click', function(){
-    $('html,boy').animate({scrollTop:590}, 1500);
+    $('html,body').animate({scrollTop:584}, 1500);
 })
 $('#nosotros2').on('click', function(){
-    $('html,boy').animate({scrollTop:590}, 1500);
+    $('html,body').animate({scrollTop:584}, 1500);
 })
 $('#catalogo').on('click', function(){
-    $('html,boy').animate({scrollTop:1180}, 1500);
+    $('html,body').animate({scrollTop:1168}, 1500);
 })
 $('#catalogo2').on('click', function(){
-    $('html,boy').animate({scrollTop:1180}, 1500);
+    $('html,body').animate({scrollTop:1168}, 1500);
 })
 
 
