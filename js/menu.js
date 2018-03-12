@@ -41,19 +41,25 @@ anterior.on('click', function(){
 /*--------------scroll---------------------*/
 
 $('#inicio').on('click', function(){
-    $('html,body').animate({scrollTop:0}, 1500);
+    $ir=$("#seccion1").offset().top;
+    $('html,body').animate({scrollTop:$ir}, 1500);
 })
 $('#nosotros').on('click', function(){
-    $('html,body').animate({scrollTop:584}, 1500);
+    $ir2=$("#seccion2").offset().top;
+    $('html,body').animate({scrollTop:$ir2}, 1500);
 })
 $('#nosotros2').on('click', function(){
-    $('html,body').animate({scrollTop:584}, 1500);
+    $ir2=$("#seccion2").offset().top;
+    $('html,body').animate({scrollTop:$ir2}, 1500);
 })
 $('#catalogo').on('click', function(){
-    $('html,body').animate({scrollTop:1168}, 1500);
+    $ir3=$("#seccion3").offset().top;
+    $('html,body').animate({scrollTop:$ir3}, 1500);
 })
 $('#catalogo2').on('click', function(){
-    $('html,body').animate({scrollTop:1168}, 1500);
+    $ir3=$("#seccion3").offset().top;
+    $('html,body').animate({scrollTop:$ir3}, 1500);
 })
+
 
 
